@@ -4,6 +4,7 @@ import request
 import sys
 
 #ordine = sys.argv[1:]
+
 #recuper id ordine
 ordine = request.GET.get('ordine')
 
