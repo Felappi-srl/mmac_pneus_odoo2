@@ -8,7 +8,7 @@ import cgi, cgitb
 form = cgi.FieldStorage()
 ordine = form.getvalue('ordine')
 
-print(ordine)
+print(ordine[0])
 
 if ordine!=None:
 
