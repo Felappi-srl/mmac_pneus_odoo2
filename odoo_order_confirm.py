@@ -8,9 +8,9 @@ import cgi, cgitb
 form = cgi.FieldStorage()
 ordine = form.getvalue('ordine')
 
-print(ordine[0])
+print(ordine)
 
-if ordine!=None:
+if ordine!='':
 
     url= 'http://34.240.79.218:8069'
     db= 'odoo'
