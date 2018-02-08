@@ -10,7 +10,7 @@ ordine = form.getvalue('ordine')
 
 print(ordine)
 
-if ordine!='':
+if ordine!=None:
 
     url= 'http://34.240.79.218:8069'
     db= 'odoo'
