@@ -1,6 +1,5 @@
 #!/usr/bin/python
-print "Content-Type: text/plain;charset=utf-8"
-print ""
+print("Content-type:text/html\r\n")
 import request
 import sys
 
@@ -28,4 +27,4 @@ if ordine!=None:
     print(order_id)
     print(models.execute_kw(db, uid, password, 'sale.order', 'action_confirm', order_id))
 else:
-    print "Parametro ordine non valorizzato"
+    print("Parametro ordine non valorizzato")
