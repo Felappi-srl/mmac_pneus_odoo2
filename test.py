@@ -1,4 +1,4 @@
 #!/usr/bin/python
-print "Content-Type: text/plain;charset=utf-8"
+print("Content-type:text/html\r\n")
 print
-print "test"
+print("test")
