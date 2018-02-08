@@ -1,14 +1,14 @@
 #!/usr/bin/python
 print("Content-type:text/html\r\n")
-import request
-import sys
-
-#ordine = sys.argv[1:]
+# import request
+# import sys
+import cgi, cgitb
 
 #recuper id ordine
+form = cgi.FieldStorage()
+ordine = form.getvalue('ordine')
 
-ordine = request.GET.get('ordine')
-
+print(ordine)
 
 if ordine!=None:
 
