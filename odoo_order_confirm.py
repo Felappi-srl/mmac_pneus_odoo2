@@ -1,11 +1,11 @@
 #!/usr/bin/python
-print "Content-Type: text/plain;charset=utf-8"
 import request
 import sys
 
 #ordine = sys.argv[1:]
 
 #recuper id ordine
+print "Content-Type: text/plain;charset=utf-8"
 ordine = request.GET.get('ordine')
 
 
