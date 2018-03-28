@@ -12,7 +12,7 @@ print(ordine)
 
 if ordine!=None:
 
-    url= 'http://34.240.79.218:8069'
+    url= 'http://odoo.pneus-center.it:8069'
     db= 'felappi_2018'
     username='procedure@tyreo.com'
     password='Fela1681'
